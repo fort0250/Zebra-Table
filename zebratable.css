@@ -1,0 +1,22 @@
+table, th, td {
+   border: 1px dashed hotpink;
+}
+
+table {
+	border-collapse: collapse;	
+}
+
+th, td{
+	width: 16%;
+	height: 4rem;
+}
+
+tr:nth-child(2n){
+	background-color: hsl(120, 100%, 50%);;	
+}
+
+col:nth-child(odd){
+	background-color: hsl(120, 100%, 25%);;	
+}
+
+
